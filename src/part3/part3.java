@@ -1,7 +1,9 @@
 package part3;
 
+import part1.MyFirstChangForGitHub;
+
 public class part3 {
-    public static void main (String args[]){
+    public static void main(String args[]) {
         int x;
         double y;
         x = 10;
@@ -15,6 +17,10 @@ public class part3 {
 
         System.out.println("Значение переменной x после деления: " + x);
         System.out.println("Значение переменной y после деления: " + y);
+
+        MyFirstChangForGitHub myFirstChangForGitHub = new MyFirstChangForGitHub();
+        String value = myFirstChangForGitHub.getValue();
+        System.out.println(value);
 
     }
 }
