@@ -1,8 +1,0 @@
-
-U	java:S106	"9Replace this use of System.out or System.err by a logger.(”Ôï8ñÖîæÒ.
-Z
-java:S1197"8Move the array designator from the variable to the type.(¡şÏÖøÿÿÿÿ8ÁŞáæÒ.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(±ìÜ¾úÿÿÿÿ
-c
-java:S2184"FCast one of the operands of this multiplication operation to a "long".(ÔïÚÿ8Ã´çÒ.
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾ÚÙ©
