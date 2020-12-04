@@ -1,33 +1,11 @@
-package part3.part28;
+package part4.part7;
 
 /*
-Завершенная справичная система по управляющим инструкциям Java, обрабатывающая многократные запросы.
- */
-public class Part28 {
-    public static void main(String args[])
-            throws java.io.IOException {
-
-        char choice, ignore;
-        do {
-            System.out.println("Справка:");
-            System.out.println(" 1. if");
-            System.out.println(" 2. switch");
-            System.out.println(" 3. for");
-            System.out.println(" 4. while");
-            System.out.println(" 5. do-while");
-            System.out.println(" 6. break");
-            System.out.println(" 7. continue\n");
-            System.out.println("Выберите (q - выход): ");
-
-            choice = (char) System.in.read();
-            do {
-                ignore = (char) System.in.read();
-            } while (ignore != '\n');
-        } while (choice < '1' | choice > '7' & choice != 'q');
-
-        System.out.println("\n");
-
-        switch (choice) {
+Преобразование в класс Help справочной системы из упражнения 3.3.
+*/
+public class Help {
+    void helpon(int what) {
+        switch (what) {
             case '1':
                 System.out.println("Инструкция if:\n");
                 System.out.println("if (условие) инструкция;");
@@ -65,7 +43,47 @@ public class Part28 {
                 System.out.println("Инструкция contiue:\n");
                 System.out.println("continue; или continue метка");
                 break;
+        }
+        System.out.println();
+    }
 
+    void showmenu() {
+        System.out.println("Справка:");
+        System.out.println(" 1. if");
+        System.out.println(" 2. switch");
+        System.out.println(" 3. for");
+        System.out.println(" 4. while");
+        System.out.println(" 5. do-while");
+        System.out.println(" 6. break");
+        System.out.println(" 7. continue\n");
+        System.out.println("Выберите (q - выход): ");
+    }
+
+    boolean isvalid(int ch) {
+        if (ch < '1' | ch > '7' & ch != 'q') return false;
+        else return true;
+    }
+
+    static class HelpClassDemo {
+        public static void main(String[] agrs)
+                throws java.io.IOException {
+            char choice, ignore;
+            Help hlpobj = new Help();
+
+            for (; ; ) {
+                do {
+                    hlpobj.showmenu();
+
+                    choice = (char) System.in.read();
+
+                    do {
+                        ignore = (char) System.in.read();
+                    } while (ignore != '\n');
+                } while (!hlpobj.isvalid(choice));
+                if (choice == 'q') break;
+                System.out.println("\n");
+                hlpobj.helpon(choice);
+            }
         }
     }
 }

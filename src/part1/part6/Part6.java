@@ -1,5 +1,7 @@
 package part1.part6;
-
+/*
+Демонстрация применения цикла for.
+ */
 public class Part6 {
 
     public static void main(String args[]) {
