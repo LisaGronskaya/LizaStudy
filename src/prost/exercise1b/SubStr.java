@@ -1,4 +1,4 @@
-package prost;
+package prost.exercise1b;
 
 /*
 Применение метода substring().

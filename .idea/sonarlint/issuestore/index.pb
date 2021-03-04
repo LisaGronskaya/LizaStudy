@@ -213,3 +213,71 @@ M
 src/part5/part24/LowCase.java,5/0/50fe6cc803b5d129a6d9d76451a34143590a9f81
 L
 src/part5/part25/Encode.java,a/8/a8476980b26071d84834952f7a13b50723c2f63a
+O
+src/part5/part27/ShiftDemo.java,c/f/cf3cacf40646b8e712e1a1766d1c54289e48fdc3
+N
+src/part5/part28/ShowBits.java,1/6/16623791449ec5c3bd91801f345ecd5152e6916f
+O
+src/part5/part29/NoZeroDiv.java,4/f/4f80a452d2ea09180db855bf6388390bdad45111
+Q
+!src/prost/exercise1b/Array12.java,2/4/2469a6166bb88fe392cbe901355641de9a34032a
+R
+"src/prost/exercise1b/MyBubble.java,e/8/e8791cea1e645f03b927364624e64f6eb0daec41
+R
+"src/part6/part2/FailSoftArray.java,a/2/a2823b979d565b0ec48be63517bbb13dea549362
+M
+src/part5/part26/NotDemo.java,a/c/ac99d86da01d41093a1d4f9f1a754f07cceb3a9f
+L
+src/part6/part1/MyClass.java,2/c/2ccc76300154e2739f91fe512df37756a43be174
+J
+src/part6/part4/Block.java,7/1/7116e38f0a07d5eb2e86e0205069640a49341afa
+I
+src/part6/part5/Test.java,b/9/b9ae36bb84df420a693e6f6d19a2736c10379a01
+I
+src/part6/part6/Test.java,8/6/862dffcc3e33153b27da2df4c893996b410e721b
+M
+src/part6/part7/ErrorMsg.java,d/5/d539f51973fc2d18cc0a5ef1e6dcc2cb30c301e6
+H
+src/part6/part8/Err.java,4/2/42f9b77bd1fd31be2f1e6b9ee3f36279533dd2fc
+M
+src/part6/part9/Overload.java,7/a/7a913547af7fbb39d1f80be49e3a5895919b5aca
+O
+src/part6/part10/Overload2.java,1/a/1a2c235fb1b948fa460c4c19727fadf6919189fe
+O
+src/part6/part11/Overload2.java,e/9/e93031d3fd862d32b9b66902f369d2f39ec07812
+M
+src/part6/part12/MyClass.java,b/0/b0912624ceee29a525408c2a59fd4d93ad269c0e
+O
+src/part6/part13/Summation.java,4/f/4fe7551bd0f0e0b12ac2df66913e6bbe08dfa607
+O
+src/part6/part15/Factorial.java,2/1/218cf3bc240b2589b62414d7f2aba414c195ed80
+P
+ src/part6/part16/StaticDemo.java,d/c/dc2cac626e4ead3ad1930b972fe22690795e4d3b
+P
+ src/part6/part17/StaticMeth.java,5/c/5c4720e556855898a319696dcd199446678d4886
+Q
+!src/part6/part18/StaticBlock.java,c/e/ce5e7f95d042937ef75c6cf92b5ef2ca01ea79e5
+P
+ src/part6/part19/Quiсksort.java,5/8/5806de7cac84c6ac39f0e73adeab52f2c26169b7
+T
+$src/part6/part21/LocalClassDemo.java,6/d/6df4a8a91c8eddde5ed5e545c395fefd4e73bf6b
+K
+src/part6/part20/Outer.java,4/2/424cecb01dd68a78f2cf9aced5bd682eb9abccf0
+M
+src/part6/part22/VarArgs.java,b/3/b3a32e105b1f8e6cc6ffbeb7d8b7d8060a82fbdf
+N
+src/part6/part23/VarArgs2.java,b/5/b5272b3112b749cc7112cb464b19fbaa32a59818
+N
+src/part6/part24/VarArgs3.java,3/1/317849ee90f3d20b07f333709c608f3fb02418b3
+K
+src/part6/part14/Queue.java,d/8/d8d4b43bdbee5cc8645c29b2c648b24a8653a26a
+J
+src/part6/part3/Queue.java,c/5/c5604cc69675dd0d524aa574dc00374a871a3721
+N
+src/prost/exercise1b/Test.java,c/4/c47e12a0a4f47e0f3796c39b59f50243051cbf26
+O
+src/prost/exercise1b/Queue.java,8/e/8e0e8bc994a2f7ee2dac1683003e743e5a0f287b
+N
+src/part7/part1/TwoDShape.java,2/0/20f47e93418b61502c73116ac0f2a938b97aa72e
+N
+src/part7/part2/TwoDShape.java,e/d/edb24ed961351033c7e1f4358a694582777054bd
